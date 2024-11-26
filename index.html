@@ -18,7 +18,8 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+  <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACw=">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -104,6 +105,22 @@
   </div>
 </section>
 
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img
+        id="teaser"
+        src="./static/images/figure_1.png"
+        alt="Teaser Image"
+        style="width: 100%; height: 100%; object-fit: cover;"
+      />
+      <h2 class="subtitle has-text-centered">
+        DiffSLT generates diverse yet accurate translations by leveraging a diffusion model.
+      </h2>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -137,6 +154,31 @@
     </div>
     <!--/ Abstract. -->
 
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img
+        id="teaser"
+        src="./static/images/figure_3.png"
+        alt="Teaser Image"
+        style="width: 100%; height: 100%; object-fit: cover;"
+      />
+      <h2 class="subtitle has-text-centered">
+        <p>
+        Our training process consists of two phases: 
+        pretraining for diffusion and diffusion training.
+        </p>
+        <p>
+        During pretraining, we extract text-aligned visual features and 
+        latent representations of spoken sentences. 
+        In the diffusion training stage, our denoising network generates 
+        target sentence latent conditioned on the visual features obtained 
+        from pretraining.
+      </h2>
+    </div>
   </div>
 </section>
 
