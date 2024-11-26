@@ -119,6 +119,20 @@
       </h2>
     </div>
   </div>
+
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img
+        id="teaser"
+        src="./static/images/figure_2.png"
+        alt="Teaser Image"
+        style="width: 100%; height: 100%; object-fit: cover;"
+      />
+      <h2 class="subtitle has-text-centered">
+        DiffSLT achieves high diversity and generates diverse translations in MBart text embedding space.
+      </h2>
+    </div>
+  </div>
 </section>
 
 <section class="section">
@@ -126,7 +140,7 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3" style="margin-bottom: 10px>Abstract</h2>
         <div class="content has-text-justified">
           <p>
             Sign language translation (SLT) is challenging, 
@@ -166,17 +180,19 @@
         alt="Teaser Image"
         style="width: 100%; height: 100%; object-fit: cover;"
       />
-      <h2 class="subtitle has-text-centered">
+      <h2 class="subtitle has-text-centered is-size-6">
         <p>
         Our training process consists of two phases: 
         pretraining for diffusion and diffusion training.
         </p>
         <p>
-        During pretraining, we extract text-aligned visual features and 
+        During pretraining, we extract visual features and 
         latent representations of spoken sentences. 
-        In the diffusion training stage, our denoising network generates 
-        target sentence latent conditioned on the visual features obtained 
-        from pretraining.
+        </p>
+        <p>
+        In the diffusion training, our denoising network generates 
+        target sentence latent conditioned on the visual features.
+        </p>
       </h2>
     </div>
   </div>
