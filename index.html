@@ -123,7 +123,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <img
-        id="teaser"
+        id="teaser2"
         src="./static/images/figure_2.png"
         alt="Teaser Image"
         style="width: 100%; height: 100%; object-fit: cover;"
@@ -173,14 +173,17 @@
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered" style="margin-top: 1.0em">
+      <h2 class="title is-3">Method</h2>
+    </div>
     <div class="hero-body">
       <img
-        id="teaser"
+        id="teaser3"
         src="./static/images/figure_3.png"
         alt="Teaser Image"
         style="width: 100%; height: 100%; object-fit: cover;"
       />
-      <h2 class="subtitle has-text-centered is-size-6">
+      <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 0.7em">
         <p>
         Our training process consists of two phases: 
         pretraining for diffusion and diffusion training.
@@ -198,11 +201,123 @@
   </div>
 </section>
 
+<!--<section class="hero is-light is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-steve">-->
+<!--          <figure class="image">-->
+<!--            <img-->
+<!--              src="./static/images/figure_5.png"-->
+<!--              alt="Diversity results quantitative"-->
+<!--            />-->
+<!--          </figure>-->
+<!--        </div>-->
+<!--        <div class="item item-chair-tp">-->
+<!--          <figure class="image">-->
+<!--            <img-->
+<!--              src="./static/images/figure_5.png"-->
+<!--              alt="Diversity results quantitative"-->
+<!--            />-->
+<!--          </figure>-->
+<!--        </div>-->
+<!--        <div class="item item-shiba">-->
+<!--          <figure class="image">-->
+<!--            <img-->
+<!--              src="./static/images/figure_5.png"-->
+<!--              alt="Diversity results quantitative"-->
+<!--            />-->
+<!--          </figure>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
+<!-- Image Carousel Section -->
+<!--<section class="section">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="columns is-centered has-text-centered" style="margin-top: 1.0em">-->
+<!--      <h2 class="title is-3">Results</h2>-->
+<!--    </div>-->
+<!--    <div class="carousel">-->
+<!--      <div class="carousel-container">-->
+<!--        &lt;!&ndash; Carousel Item 1 &ndash;&gt;-->
+<!--        <div class="carousel-item is-active">-->
+<!--          <figure class="image">-->
+<!--            <img-->
+<!--              src="./static/images/figure_5.png"-->
+<!--              alt="Diversity results quantitative"-->
+<!--            />-->
+<!--          </figure>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; Carousel Item 2 &ndash;&gt;-->
+<!--        <div class="carousel-item">-->
+<!--          <figure class="image">-->
+<!--            <img-->
+<!--              src="./static/images/figure_6.png"-->
+<!--              alt="Long context qualitative"-->
+<!--            />-->
+<!--          </figure>-->
+<!--        </div>-->
+<!--        &lt;!&ndash; Carousel Item 3 &ndash;&gt;-->
+<!--        <div class="carousel-item">-->
+<!--          <figure class="image">-->
+<!--            <img-->
+<!--              src="./static/images/figure_7.png"-->
+<!--              alt="Another Description"-->
+<!--            />-->
+<!--          </figure>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      &lt;!&ndash; Carousel Navigation Controls &ndash;&gt;-->
+<!--      <div class="carousel-navigation is-centered">-->
+<!--        <div class="carousel-nav-left">-->
+<!--          <i class="fa fa-chevron-left" aria-hidden="true"></i>-->
+<!--        </div>-->
+<!--        <div class="carousel-nav-right">-->
+<!--          <i class="fa fa-chevron-right" aria-hidden="true"></i>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      &lt;!&ndash; Carousel Pagination &ndash;&gt;-->
+<!--      <div class="carousel-pagination is-centered"></div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered" style="margin-top: 1.0em">
+      <h2 class="title is-3">Results</h2>
+    </div>
+    <div class="hero-body">
+      <img
+        id="teaser4"
+        src="./static/images/figure_5.png"
+        alt="Teaser Image"
+        style="width: 50%; height: 50%; object-fit: cover; display: block; margin: 0 auto;"
+      />
+      <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 1em">
+        <p>
+        Our training process consists of two phases:
+        pretraining for diffusion and diffusion training.
+        </p>
+      </h2>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-
+@article{moon2024diffslt,
+      title={DiffSLT: Enhancing Diversity in Sign Language Translation via Diffusion Model},
+      author={JiHwan Moon and Jihoon Park and Jungeun Kim and Jongseong Bae and Hyeongwoo Jeon and Ha Young Kim},
+      year={2024},
+}
 </code></pre>
   </div>
 </section>
@@ -230,6 +345,32 @@
     </div>
   </div>
 </footer>
+
+<!-- Initialize Bulma Carousel -->
+<!-- Scripts at the end of body -->
+<!-- jQuery (if required) -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!-- Bulma Carousel JS -->
+<!--<script src="./static/js/bulma-carousel.min.js"></script>-->
+<!-- Font Awesome JS -->
+<!--<script defer src="./static/js/fontawesome.all.min.js"></script>-->
+<!-- Initialize Bulma Carousel -->
+<!--<script>-->
+<!--  document.addEventListener('DOMContentLoaded', function () {-->
+<!--    var carousels = bulmaCarousel.attach('.carousel', {-->
+<!--      slidesToScroll: 1,-->
+<!--      slidesToShow: 1,-->
+<!--      loop: true,-->
+<!--      infinite: true,-->
+<!--      autoplay: true,-->
+<!--      autoplaySpeed: 3000,-->
+<!--      pauseOnHover: true,-->
+<!--      navigation: true,-->
+<!--      pagination: true,-->
+<!--    });-->
+<!--  });-->
+<!--</script>-->
+
 
 </body>
 </html>
