@@ -155,3 +155,17 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.carousel .carousel-item {
+  padding-bottom: 2em; /* Adds space at the bottom of each carousel item */
+}
+
+.carousel .carousel-pagination {
+  margin-top: 1em; /* Adjusts the spacing between the carousel items and pagination dots */
+}
+
+.carousel .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -20,14 +20,9 @@
   <link rel="stylesheet" href="./static/css/index.css">
   <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
   <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACw=">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
 </head>
 <body>
+
 
 <section class="hero">
   <div class="hero-body">
@@ -201,112 +196,77 @@
   </div>
 </section>
 
-<!--<section class="hero is-light is-small">-->
-<!--  <div class="hero-body">-->
-<!--    <div class="container">-->
-<!--      <div id="results-carousel" class="carousel results-carousel">-->
-<!--        <div class="item item-steve">-->
-<!--          <figure class="image">-->
-<!--            <img-->
-<!--              src="./static/images/figure_5.png"-->
-<!--              alt="Diversity results quantitative"-->
-<!--            />-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--        <div class="item item-chair-tp">-->
-<!--          <figure class="image">-->
-<!--            <img-->
-<!--              src="./static/images/figure_5.png"-->
-<!--              alt="Diversity results quantitative"-->
-<!--            />-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--        <div class="item item-shiba">-->
-<!--          <figure class="image">-->
-<!--            <img-->
-<!--              src="./static/images/figure_5.png"-->
-<!--              alt="Diversity results quantitative"-->
-<!--            />-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<!-- Image Carousel Section -->
-<!--<section class="section">-->
-<!--  <div class="container is-max-desktop">-->
-<!--    <div class="columns is-centered has-text-centered" style="margin-top: 1.0em">-->
-<!--      <h2 class="title is-3">Results</h2>-->
-<!--    </div>-->
-<!--    <div class="carousel">-->
-<!--      <div class="carousel-container">-->
-<!--        &lt;!&ndash; Carousel Item 1 &ndash;&gt;-->
-<!--        <div class="carousel-item is-active">-->
-<!--          <figure class="image">-->
-<!--            <img-->
-<!--              src="./static/images/figure_5.png"-->
-<!--              alt="Diversity results quantitative"-->
-<!--            />-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; Carousel Item 2 &ndash;&gt;-->
-<!--        <div class="carousel-item">-->
-<!--          <figure class="image">-->
-<!--            <img-->
-<!--              src="./static/images/figure_6.png"-->
-<!--              alt="Long context qualitative"-->
-<!--            />-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; Carousel Item 3 &ndash;&gt;-->
-<!--        <div class="carousel-item">-->
-<!--          <figure class="image">-->
-<!--            <img-->
-<!--              src="./static/images/figure_7.png"-->
-<!--              alt="Another Description"-->
-<!--            />-->
-<!--          </figure>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      &lt;!&ndash; Carousel Navigation Controls &ndash;&gt;-->
-<!--      <div class="carousel-navigation is-centered">-->
-<!--        <div class="carousel-nav-left">-->
-<!--          <i class="fa fa-chevron-left" aria-hidden="true"></i>-->
-<!--        </div>-->
-<!--        <div class="carousel-nav-right">-->
-<!--          <i class="fa fa-chevron-right" aria-hidden="true"></i>-->
-<!--        </div>-->
-<!--      </div>-->
-
-<!--      &lt;!&ndash; Carousel Pagination &ndash;&gt;-->
-<!--      <div class="carousel-pagination is-centered"></div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered" style="margin-top: 1.0em">
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="columns is-centered has-text-centered" style="margin-top: 0.5em; margin-bottom: 1.0em">
       <h2 class="title is-3">Results</h2>
     </div>
-    <div class="hero-body">
-      <img
-        id="teaser4"
-        src="./static/images/figure_5.png"
-        alt="Teaser Image"
-        style="width: 50%; height: 50%; object-fit: cover; display: block; margin: 0 auto;"
-      />
-      <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 1em">
-        <p>
-        Translation results for PHOENIX14T dataset.
-        </p>
-      </h2>
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel" style="margin-bottom: 3.0em">
+        <div class="carousel-item">
+          <div class="content-wrapper">
+            <figure class="image">
+              <img
+                src="./static/images/latent_path_fig.png"
+                alt="Latents' paths toward target latent across sampling timesteps."
+                style="width: 50%; height: 50%; object-fit: cover; display: block; margin: 0 auto;"
+              />
+            </figure>
+            <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 1em">
+              Latents' paths toward target latent across sampling timesteps.
+            </h2>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="content-wrapper">
+            <figure class="image">
+              <img
+                src="./static/images/figure_6.png"
+                alt="High diversity in multiple metrics as quantitative result."
+                style="width: 50%; height: 50%; object-fit: cover; display: block; margin: 0 auto;"
+              />
+            </figure>
+            <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 1em">
+              High diversity in multiple metrics as quantitative result.
+            </h2>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="content-wrapper">
+            <figure class="image">
+              <img
+                src="./static/images/figure_5.png"
+                alt="Translation results for PHOENIX14T dataset."
+                style="width: 50%; height: 50%; object-fit: cover; display: block; margin: 0 auto;"
+              />
+            </figure>
+            <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 1em">
+              Translation results for PHOENIX14T dataset.
+            </h2>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="content-wrapper">
+            <figure class="image">
+              <img
+                src="./static/images/csl_qual.png"
+                alt="Translation results for CSL-Daily dataset."
+                style="width: 50%; height: 50%; object-fit: cover; display: block; margin: 0 auto;"
+              />
+            </figure>
+            <h2 class="subtitle has-text-centered is-size-6" style="margin-top: 1em">
+              Translation results for CSL-Daily dataset.
+            </h2>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -345,30 +305,34 @@
   </div>
 </footer>
 
+<!-- Place scripts at the end of the body -->
 <!-- Initialize Bulma Carousel -->
-<!-- Scripts at the end of body -->
 <!-- jQuery (if required) -->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bulma Carousel JS -->
-<!--<script src="./static/js/bulma-carousel.min.js"></script>-->
+<script src="./static/js/bulma-carousel.min.js"></script>
 <!-- Font Awesome JS -->
-<!--<script defer src="./static/js/fontawesome.all.min.js"></script>-->
+<script defer src="./static/js/fontawesome.all.min.js"></script>
+<!-- Bulma Slider JS (if needed) -->
+<script src="./static/js/bulma-slider.min.js"></script>
+<!-- Index JS (if needed) -->
+<script src="./static/js/index.js"></script>
 <!-- Initialize Bulma Carousel -->
-<!--<script>-->
-<!--  document.addEventListener('DOMContentLoaded', function () {-->
-<!--    var carousels = bulmaCarousel.attach('.carousel', {-->
-<!--      slidesToScroll: 1,-->
-<!--      slidesToShow: 1,-->
-<!--      loop: true,-->
-<!--      infinite: true,-->
-<!--      autoplay: true,-->
-<!--      autoplaySpeed: 3000,-->
-<!--      pauseOnHover: true,-->
-<!--      navigation: true,-->
-<!--      pagination: true,-->
-<!--    });-->
-<!--  });-->
-<!--</script>-->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var carousels = bulmaCarousel.attach('.carousel', {
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      loop: true,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: true,
+      navigation: true,
+      pagination: true,
+    });
+  });
+</script>
 
 
 </body>
